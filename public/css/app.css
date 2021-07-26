@@ -1,0 +1,33 @@
+.custom-nav{
+  color: #ffffff;
+  display:flex;
+  justify-content: flex-start;
+}
+.custom-nav a {
+  color: #ffffff;
+}
+
+#messageName, #messageEmail, #messageCountry,#editMessageName, #editMessageEmail, #editMessageCountry {
+  display: none;
+  color:red
+}
+
+#tblSubscribers tbody tr td:first-child, #tblSubscribers thead tr th:first-child {
+  display:none
+}
+
+#tblSubscribers tbody tr td:last-child, #tblSubscribers thead tr th:last-child {
+  text-align: center;
+}
+
+#tblSubscribers tbody tr td:nth-child(3) {
+  cursor: pointer;
+}
+
+#tblSubscribers tbody tr td:nth-child(3):hover{
+  color: rgb(37, 105, 207);
+}
+
+.alert{
+  display: none;
+}
